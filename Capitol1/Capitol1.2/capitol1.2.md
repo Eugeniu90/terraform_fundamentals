@@ -4,7 +4,7 @@ In acest subcapitol o sa exersam anumite abordari si executari destinate *Terraf
 
 - [Utilizarea comenzilor HCL in Terraform](#1-utilizarea-comenzilor-hcl-in-terraform)
 - [Utilizarea limbajului HCL pentru apelarea unei variabile pe baza unei chei](#2-utilizarea-limbajului-hcl-pentru-apelarea-unei-variabile-pe-baza-unei-chei)
-- [Exercitii](#3-exercitiu)
+- [Tema](#3-tema)
 
 
 ## 1. Utilizarea comenzilor HCL in Terraform.
@@ -40,7 +40,7 @@ terraform console:
 }
 ```
 
-## 3. Exercitiu:
+## 3. Tema:
 
  - Cream un fisier *exercitii.tf*
  - Incercam sa definim o variabila dupa exemplele de mai sus si sa apelam valorile asociate acestora.

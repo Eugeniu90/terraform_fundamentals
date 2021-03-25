@@ -1,7 +1,13 @@
 # Capitolul 1
 
-## Ce este Terraform?
+## Quote of the Day
 
+#### “You are unique. You have different talents and abilities. You don’t have to always follow in the footsteps of others. And most important, you should always remind yourself that you don't have to do what everyone else is doing and have a responsibility to develop the talents you have been given.”
+- Roy T. Bennett, The Light in the Heart
+
+
+
+## Ce este Terraform?
 
 Terraform este un instrument pentru construirea, schimbarea și versionarea infrastructurii în condiții de siguranță și eficiență. Terraform poate gestiona furnizori de servicii existenți și populari, precum și soluții personalizate interne.
 

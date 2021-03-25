@@ -3,7 +3,10 @@
 In acest subcapitol o sa invocam cativa furnizori de TOP.
 
 
-## 1. AWS Provider
+[AWS](#1-furnizorul-aws)
+[Tema](#tema)
+
+## 1. Furnizorul AWS
 
 1. Cream un  fisier denumit *provider.tf*, cu urmatorul continut:
 
@@ -42,7 +45,7 @@ commands will detect it and remind you to do so if necessary.
 
 3. Felicitari, acum am initializat Terraform cu furnizorul de AWS.
 
-Probleme: 
+##Tema: 
 
 1. Incercam sa initializam Terraform cu furnizorul de la Microsoft [Azure](#https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 2. Initializam Terraform cu furnizorul [Google Cloud](#https://registry.terraform.io/providers/hashicorp/google/latest/docs).
