@@ -8,8 +8,10 @@ In acest subcapitol o sa exersam anumite abordari si executari destinate *Terraf
 
 
 ## 1. Utilizarea comenzilor HCL in Terraform.
-    - Cream un fisier denumit: *main.tf* .
-    - Ulterior incercam sa apelam anumite variabile:
+
+- Cream un fisier denumit: *main.tf* .
+- Ulterior incercam sa apelam anumite variabile:
+
 ```bash
 terraform console
 > var.terraform-course"
@@ -40,6 +42,6 @@ terraform console:
 
 ## 3. Exercitiu:
 
- - Cream un fisier exercitii.tf
+ - Cream un fisier *exercitii.tf*
  - Incercam sa definim o variabila dupa exemplele de mai sus si sa apelam valorile asociate acestora.
 
