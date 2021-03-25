@@ -1,0 +1,7 @@
+[user]
+	email = eugeniu.goncearuc@telacad.com
+	name = Eugeniu Goncearuc
+[core]
+	editor = vim
+[http]
+	postBuffer = 1048576000
