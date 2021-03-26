@@ -8,7 +8,7 @@ In acest subcapitol o sa invocam cativa furnizori de TOP.
 
 ## 1. Furnizorul AWS
 
-1. Cream un  fisier denumit *provider.tf*, cu urmatorul continut:
+1. Cream un  fisier denumit [provider.tf](provider.tf), cu urmatorul continut:
 
 ```terraform
 provider "aws" {

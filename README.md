@@ -16,7 +16,10 @@ Mai jos regasiti structura cursului, destinata problemelor practice asociate ace
 - [Capitolul 2](Capitol2/capitol2.md)
   - [Capitolul 2.1](Capitol2/Capitol2.1/capitol2.1.md)
   - [Capitolul 2.2](Capitol2/Capitol2.2/capitol2.2.md)
-    
+  - [Capitolul 2.3](Capitol2/Capitol2.3/capitol2.3.md)
+  - [Capitolul 2.4](Capitol2/Capitol2.4/capitol2.4.md)
+  
+                          
 
 <!-- /TOC -->
 

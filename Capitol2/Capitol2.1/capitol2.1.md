@@ -11,7 +11,7 @@ Astazi o sa parcurgem cateva exemple de initializare de *plugins* in Terraform.
 
 
 ## Azure Plugins
-1. Initializare plugins pentru *Azure* astfe, copiem urmatorul continut intr-un fisier nou *azure.tf* cu acest continut:
+1. Initializare plugins pentru *Azure* astfe, copiem urmatorul continut intr-un fisier nou [azure.tf](azure.tf) cu acest continut:
 
 ```terraform
 terraform {
@@ -27,7 +27,7 @@ terraform {
 
 ## Local Plugins
 
-1. Initalizam *local* plugins, cream un fisier `local.tf` cu urmatorul continut:
+1. Initalizam *local* plugins, cream un fisier [local.tf](local.tf) cu urmatorul continut:
 
 ```terraform
 terraform {
@@ -44,7 +44,7 @@ terraform {
 
 ## Null Plugins
 
-1. Copiem urmatorul continut intr-un fisier nou denumit *null.tf*:
+1. Copiem urmatorul continut intr-un fisier nou denumit [null.tf](null.tf):
 
 ```terraform
 terraform {
@@ -60,7 +60,7 @@ terraform {
 
 ## OpenStack plugins
 
-1. Urmatorul continut il copiem intr-un fisier nou *ostack.tf*:
+1. Urmatorul continut il copiem intr-un fisier nou [ostack.tf](openstack.tf):
 
 ```terraform
 terraform {
@@ -79,7 +79,7 @@ terraform {
 
 ## Random Plugin
 
-1. Cream fisierul de *random.tf* cu urmatorul continut:
+1. Cream fisierul de [random.tf](random.tf) cu urmatorul continut:
 
 ```terraform
 terraform {

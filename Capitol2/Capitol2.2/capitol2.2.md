@@ -10,7 +10,7 @@
 - [Teme](#tema)
 
 ## 1. Furnizorii
-Cream un  fisier de variabile denumit *providers.tf* cu acest continut:
+Cream un  fisier de variabile denumit [providers.tf](provider.tf) cu acest continut:
 ```terraform
 provider "aws" {
   access_key = var.AWS_ACCESS_KEY
@@ -25,7 +25,7 @@ provider "aws" {
 
 
 ## 2. AMI 
-Cream un fisier de AMI (Amazon - machine - images) cu urmatorul continut:
+Cream un fisier de AMI [ami.tf](ami.tf) (Amazon - machine - images) cu urmatorul continut:
 
 ```terraform
 variable "AMIS" {
@@ -41,7 +41,7 @@ Acest fisier este responsabil de imaginile din cadrul AWS Marketplace asociate z
 
 ## 3. Versiune
 
-1. Cream un fisier in care specificam ca utilizam o versiune superoada pentru *0.11* de Terraform.
+1. Cream un fisier denumit [versions.tf](versions.tf) in care specificam ca utilizam o versiune superoada pentru *0.11* de Terraform.
 
 #### NOTE: Sintaxa difera de la 0.11  la 0.13 in sus.
 
@@ -54,7 +54,7 @@ terraform {
 
 ## 4. Fisierul de variabile generice *.tfvars
 
-1. Cream un fisier care contine variabilele generice asociate variabilelor globale.
+1. Cream un fisier numit [terraform.tfvars](terraform.tfvars) care contine variabilele generice asociate variabilelor globale.
 
 2. Fisierul *terraform.tfvars* cu acest continut:
 
@@ -66,7 +66,7 @@ Aceste credentiale pot fi extrase din consola de AWS. O sa parcurgem pasul respe
 
 ## 5. Fisierul de variabile globale
 
-1. Cream un fisier *vars.tf* cu urmatorul continut:
+1. Cream un fisier [vars.tf](vars.tf) cu urmatorul continut:
 
 ```terraform
 variable "AWS_ACCESS_KEY" {
@@ -87,7 +87,7 @@ variable "AWS_REGION" {
 
 1. O sa provisionam o insanta de EC2 in AWS astfel:
    
-    - Cream un fisier denumit *instance.tf*.
+    - Cream un fisier denumit [instance.tf](instance.tf).
     - Adaugam urmatorul continut:
     
 ```terraform

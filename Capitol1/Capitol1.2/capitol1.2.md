@@ -9,7 +9,7 @@ In acest subcapitol o sa exersam anumite abordari si executari destinate *Terraf
 
 ## 1. Utilizarea comenzilor HCL in Terraform.
 
-- Cream un fisier denumit: *main.tf* .
+- Cream un fisier denumit: [main.tf](main.tf) .
 - Ulterior incercam sa apelam anumite variabile:
 
 ```bash
@@ -19,8 +19,9 @@ terraform console
 
 ## 2. Utilizarea limbajului HCL pentru apelarea unei variabile pe baza unei chei:
 
+Cream un fisier denumit [map.tf](map.tf) si adaugam urmatorul continut in interiorul acestuia:
 ```bash
-variable "wpdgs-map" {
+variable "curs-map" {
   type = "map"
 
   default = {
