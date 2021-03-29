@@ -32,6 +32,11 @@ Mai jos regasiti structura cursului, destinata problemelor practice asociate ace
   - [Capitolul 5.2 Templates](Capitol5/Capitol5.2/capitol5.2.md)
   - [Capitolul 5.3 Comenzi Aditionale](Capitol5/Capitol5.3/capitol5.3.md)
   - [Capitolul 5.4 Recapitulare](Capitol5/Capitol5.4/capitol5.4.md)
+- [Capitolul 6 Module](Capitol6/capitol6.md)
+  - [Capitolul 6.1 Introducere in Module](Capitol6/Capitol6.1/capitol6.1.md)
+  - [Capitolul 6.2 Utilizarea variabilelor in cadrul modulelor](Capitol6/Capitol6.2/capitol6.2.md)
+  - [Capitolul 6.3 Invocarea Modulelor](Capitol6/Capitol6.3/capitol6.3.md)
+  - [Capitolul 6.4 Recapitulare](Capitol6/Capitol6.4/capitol6.4.md)
 
 
 
