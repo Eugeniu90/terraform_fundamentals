@@ -9,21 +9,31 @@ Mai jos regasiti structura cursului, destinata problemelor practice asociate ace
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Capitolul 1](Capitol1/capitol1.md)
-    - [Capitolul 1.1](Capitol1/Capitol1.1/capitol1.1.md)
-    - [Capitolul 1.2](Capitol1/Capitol1.2/capitol1.2.md)
-    - [Capitolul 1.3](Capitol1/Capitol1.3/capitol1.3.md)
-- [Capitolul 2](Capitol2/capitol2.md)
-  - [Capitolul 2.1](Capitol2/Capitol2.1/capitol2.1.md)
-  - [Capitolul 2.2](Capitol2/Capitol2.2/capitol2.2.md)
-  - [Capitolul 2.3](Capitol2/Capitol2.3/capitol2.3.md)
-  - [Capitolul 2.4](Capitol2/Capitol2.4/capitol2.4.md)
-- [Capitolul 3](Capitol3/capitol3.md)
-  - [Capitolul 3.1](Capitol3/Capitol3.1/capitol3.1.md)
-  - [Capitolul 3.2](Capitol3/Capitol3.2/capitol3.2.md)
-  - [Capitolul 3.3](Capitol3/Capitol3.3/capitol3.3.md)
-  
-                          
+- [Capitolul 1 Introducere](Capitol1/capitol1.md)
+    - [Capitolul 1.1 Instalare](Capitol1/Capitol1.1/capitol1.1.md)
+    - [Capitolul 1.2 HCL](Capitol1/Capitol1.2/capitol1.2.md)
+    - [Capitolul 1.3 Initializare](Capitol1/Capitol1.3/capitol1.3.md)
+- [Capitolul 2 Terraform setup](Capitol2/capitol2.md)
+  - [Capitolul 2.1 Plugins in Terraform](Capitol2/Capitol2.1/capitol2.1.md)
+  - [Capitolul 2.2 Initializare cont AWS - Primul EC2](Capitol2/Capitol2.2/capitol2.2.md)
+  - [Capitolul 2.3 Variabile si Functi](Capitol2/Capitol2.3/capitol2.3.md)
+  - [Capitolul 2.4 Recapitulare](Capitol2/Capitol2.4/capitol2.4.md)
+- [Capitolul 3 Privizionarea prin Terraform](Capitol3/capitol3.md)
+  - [Capitolul 3.1 Remote Exec si Local Exec](Capitol3/Capitol3.1/capitol3.1.md)
+  - [Capitolul 3.2 Provizionare Linux instanta](Capitol3/Capitol3.2/capitol3.2.md)
+  - [Capitolul 3.3 Provizionare instanta Windows](Capitol3/Capitol3.3/capitol3.3.md)
+- [Capitolul 4 In afara fluxului normal de Terraform](Capitol4/capitol4.md)
+  - [Capitolul 4.1 flux](Capitol4/Capitol4.1/capitol4.1.md)
+  - [Capitolul 4.2 Terraform fmt si state](Capitol4/Capitol4.2/capitol4.2.md)
+  - [Capitolul 4.3 Terraform Taint](Capitol4/Capitol4.3/capitol4.3.md)
+  - [Capitolul 4.4 Terraform Import si workspace](Capitol4/Capitol4.4/capitol4.4.md)
+- [Capitolul 5 Comenzi si Datasources](Capitol5/capitol5.md)
+  - [Capitolul 5.1 Datasources](Capitol5/Capitol5.1/capitol5.1.md)
+  - [Capitolul 5.2 Templates](Capitol5/Capitol5.2/capitol5.2.md)
+  - [Capitolul 5.3 Comenzi Aditionale](Capitol5/Capitol5.3/capitol5.3.md)
+  - [Capitolul 5.4 Recapitulare](Capitol5/Capitol5.4/capitol5.4.md)
+
+
 
 <!-- /TOC -->
 
