@@ -42,6 +42,11 @@ Mai jos regasiti structura cursului, destinata problemelor practice asociate ace
   - [Capitolul 7.2 Remote State](Capitol7/Capitol7.2/capitol7.2.md)
   - [Capitolul 7.3 Backend](Capitol7/Capitol7.3/capitol7.3.md)
   - [Capitolul 7.4 Sensitive data at state](Capitol7/Capitol7.4/capitol7.4.md)
+- [Capitolul 8 Terraform in fluxul normal](Capitol8/capitol8.md)
+  - [Capitolul 8.1 Local State](Capitol8/Capitol8.1/capitol8.1.md)
+  - [Capitolul 8.2 Remote State](Capitol8/Capitol8.2/capitol8.2.md)
+  - [Capitolul 8.3 Backend](Capitol8/Capitol8.3/capitol8.3.md)
+  - [Capitolul 8.4 Sensitive data at state](Capitol8/Capitol8.4/capitol8.4.md)
 
 
 
