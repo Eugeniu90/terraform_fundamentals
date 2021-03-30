@@ -37,6 +37,11 @@ Mai jos regasiti structura cursului, destinata problemelor practice asociate ace
   - [Capitolul 6.2 Utilizarea variabilelor in cadrul modulelor](Capitol6/Capitol6.2/capitol6.2.md)
   - [Capitolul 6.3 Invocarea Modulelor](Capitol6/Capitol6.3/capitol6.3.md)
   - [Capitolul 6.4 Recapitulare](Capitol6/Capitol6.4/capitol6.4.md)
+- [Capitolul 7 Terraform State](Capitol7/capitol7.md)
+  - [Capitolul 7.1 Local State](Capitol7/Capitol7.1/capitol7.1.md)
+  - [Capitolul 7.2 Remote State](Capitol7/Capitol7.2/capitol7.2.md)
+  - [Capitolul 7.3 Backend](Capitol7/Capitol7.3/capitol7.3.md)
+  - [Capitolul 7.4 Sensitive data at state](Capitol7/Capitol7.4/capitol7.4.md)
 
 
 
