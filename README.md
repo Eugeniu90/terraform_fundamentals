@@ -2,6 +2,7 @@
 
 
 Buna ziua dragilor, bine v-am gasit prezenti la acest curs de Terraform.
+![Terraform](./media/terraform.jpeg).
 
 Mai jos regasiti structura cursului, destinata problemelor practice asociate acestui curs.
 
