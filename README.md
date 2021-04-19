@@ -50,8 +50,8 @@ Mai jos regasiti structura cursului, destinata problemelor practice asociate ace
   - [Capitolul 8.4 Terraform apply || destroy](Capitol8/Capitol8.4/capitol8.4.md)
 - [Capitolul 9 Terraform Enterprise si pregatire Examen](Capitol9/capitol9.md)
   - [Capitolul 9.1 Resurse Dinamice ](Capitol9/Capitol9.1/capitol9.1.md)
-  - [Capitolul 9.2 Terraform Validate](Capitol9/Capitol9.2/capitol9.2.md)
-  - [Capitolul 9.3 Terraform Workspaces](Capitol9/Capitol9.3/capitol9.3.md)
+  - [Capitolul 9.2 Terraform Hashicorp](Capitol9/Capitol9.2/capitol9.2.md)
+  - [Capitolul 9.3 Terraform Sentinel](Capitol9/Capitol9.3/capitol9.3.md)
   - [Capitolul 9.4 Recapitulare Finala](Capitol9/Capitol9.4/capitol9.4.md)
 
 
