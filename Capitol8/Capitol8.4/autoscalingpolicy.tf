@@ -1,10 +1,10 @@
-# Cream regula de alarma pentru scaleUp
+# Cream regula de alarma pentru scaleDown
 
 resource "aws_autoscaling_policy" "cpu-regula-scaledown" {
   name                   = "cpu-regula-scaledown"
   autoscaling_group_name = aws_autoscaling_group.telacad-autoscalling.name
   adjustment_type        = "ChangeInCapacity"
-  scaling_adjustment     = "1"
+  scaling_adjustment     = "2"
   cooldown               = "300"
   policy_type            = "SimpleScaling"
 }

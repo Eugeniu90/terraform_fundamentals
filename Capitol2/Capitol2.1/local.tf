@@ -1,7 +1,7 @@
-terraform {
-  required_providers {
-    local = {
-      source  = "registry.terraform.io/example/local"
-    }
-  }
-}
+//terraform {
+//  required_providers {
+//    local = {
+//      source  = "registry.terraform.io/example/local"
+//    }
+//  }
+//}

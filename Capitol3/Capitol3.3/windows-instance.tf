@@ -21,6 +21,13 @@ net start winrm
 EOF
 }
 
+locals {
+  bash_script = <<EOF
+  #!/bin/bash
+  whoami
+EOF
+}
+
 resource "aws_key_pair" "telacad_pub" {
   key_name   = "telacad_pub"
   public_key = file(var.LOCATIE_CHEIE_PUBLICA)

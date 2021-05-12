@@ -14,7 +14,7 @@ resource "aws_security_group" "telacad_node" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["188.25.166.228/32"]
   }
   tags = {
     Name = "telacad_node"

@@ -3,7 +3,7 @@ resource "aws_instance" "telacad_node" {
   instance_type = "t2.micro"
 
   # VPC subnet
-  subnet_id = aws_subnet.main-public-1.id
+  subnet_id = aws_subnet.subnet-public-1.id
 
   # Atasam Firewall-ul la nivel de instanta SG-ul
   vpc_security_group_ids = [aws_security_group.ssh-on.id]
@@ -13,6 +13,10 @@ resource "aws_instance" "telacad_node" {
 
   # user data
   user_data = data.template_cloudinit_config.cloudinit-example.rendered
+
+  tags = {
+    Name = "Testing"
+  }
 }
 
 resource "aws_ebs_volume" "ebs-volum" {

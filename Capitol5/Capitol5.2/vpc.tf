@@ -95,7 +95,7 @@ resource "aws_route_table" "main-public" {
   }
 
   tags = {
-    Name = "subnet-public-1"
+    Name = "subnet-public"
   }
 }
 

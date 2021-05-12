@@ -1,5 +1,5 @@
-resource "aws_iam_role" "s3-bucket-rol" {
-  name               = "s3-bucket-rol"
+resource "aws_iam_role" "s3-bucket-rolling-testing" {
+  name               = "s3-bucket-rolling-testing"
   assume_role_policy = <<EOF
 {
   "Version": "2012-10-17",
@@ -20,12 +20,12 @@ EOF
 
 resource "aws_iam_instance_profile" "s3-bucket-rol-profil-instanta" {
   name = "s3-bucket-rol"
-  role = aws_iam_role.s3-bucket-rol.name
+  role = aws_iam_role.s3-bucket-rolling-testing.name
 }
 
 resource "aws_iam_role_policy" "s3-bucket-rol-policy" {
   name = "s3-bucket-rol-policy"
-  role = aws_iam_role.s3-bucket-rol.id
+  role = aws_iam_role.s3-bucket-rolling-testing.id
   policy = <<EOF
 {
     "Version": "2012-10-17",

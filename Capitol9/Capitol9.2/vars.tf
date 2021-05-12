@@ -1,6 +1,6 @@
 variable "AWS_REGION" {
   type    = string
-  default = "eu-west-1"
+  default = "us-east-1"
 }
 variable "detalii_curs" {
   type          = map(string)
@@ -10,4 +10,6 @@ variable "detalii_curs" {
     Societate   = "Telacad"
   }
 }
-
+variable "aws_profile" {
+  default = "telacad-test"
+}

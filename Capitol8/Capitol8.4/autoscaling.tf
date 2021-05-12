@@ -10,19 +10,17 @@ resource "aws_autoscaling_group" "telacad-autoscalling" {
   name                      = "telacad-autoscalling"
   vpc_zone_identifier       = [aws_subnet.public-principal-1.id, aws_subnet.public-principal-2.id]
   launch_configuration      = aws_launch_configuration.telacad-nodes-launch-configurare.name
-  min_size                  = 1
-  max_size                  = 2
+  min_size                  = 2
+  max_size                  = 4
   health_check_grace_period = 300
   health_check_type         = "EC2"
   force_delete              = true
 
   tag {
+
+    propagate_at_launch = true
     key                 = "Name"
     value               = "EC2 instance"
-    creat               = "Automat"
-    tehnologie          = "Terraform"
-    versiune            = "0.14.4"
-    propagate_at_launch = true
   }
 }
 

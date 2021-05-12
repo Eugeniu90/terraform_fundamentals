@@ -25,7 +25,8 @@ terraform state pull
 ### 3. List show
 
 ```shell
-terraform state list show aws_ssm_parameter.parametru_demo
+terraform state list  aws_ssm_parameter.parametru_demo
+terraform state show  aws_ssm_parameter.parametru_demo
 ```
 
 ### 4. Move state

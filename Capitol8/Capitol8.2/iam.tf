@@ -11,11 +11,27 @@ resource "aws_iam_policy_attachment" "cursanti-attach" {
 
 # utilizatorii
 resource "aws_iam_user" "cursant1" {
-  name = "cursant1"
+  name = "Eugeniu"
 }
 
 resource "aws_iam_user" "cursant2" {
-  name = "cursant2"
+  name = "Gigel"
+}
+
+resource "aws_iam_user" "cursant3" {
+  name = "Nicu"
+}
+
+resource "aws_iam_user" "cursant4" {
+  name = "Petrut"
+}
+
+resource "aws_iam_user" "cursant5" {
+  name = "Vadima"
+}
+
+resource "aws_iam_user" "cursant6" {
+  name = "Nadejda"
 }
 
 resource "aws_iam_group_membership" "cursanti-users" {
@@ -23,6 +39,10 @@ resource "aws_iam_group_membership" "cursanti-users" {
   users = [
     aws_iam_user.cursant1.name,
     aws_iam_user.cursant2.name,
+    aws_iam_user.cursant3.name,
+    aws_iam_user.cursant4.name,
+    aws_iam_user.cursant5.name,
+    aws_iam_user.cursant6.name,
   ]
   group = aws_iam_group.cursanti.name
 }

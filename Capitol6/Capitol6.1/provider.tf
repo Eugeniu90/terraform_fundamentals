@@ -1,4 +1,5 @@
 provider "aws" {
-  region = "eu-west-1"
+  shared_credentials_file = "~/.aws/telacad"
+  profile                 = var.aws_profile
+  region                  = var.AWS_REGION
 }
-

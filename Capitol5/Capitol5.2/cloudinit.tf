@@ -1,8 +1,5 @@
 data "template_file" "init-script" {
   template = file("scripts/init.cfg")
-  vars = {
-    REGION = var.AWS_REGION
-  }
 }
 
 data "template_file" "shell-script" {

@@ -7,7 +7,7 @@ variable "AWS_REGION"{
 variable "AMI" {
 
   default = {
-    eu-west-1 = "ami-01ccc867"
+    us-east-1 = "ami-01ccc867"
   }
 }
 

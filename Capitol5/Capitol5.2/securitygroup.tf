@@ -1,4 +1,4 @@
-resource "aws_security_group" "ssh-on"{
+resource "aws_security_group" "ssh-on" {
   vpc_id      = aws_vpc.main.id
   name        = "ssh-ON"
   description = "SG Firewall:  SSH , egress traffic"

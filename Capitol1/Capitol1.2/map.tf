@@ -1,9 +1,9 @@
 variable "telacad-map" {
-  type = "map"
 
   default = {
-    key       = "value"
-    say       = "hello"
-    say_again = "world"
+    key       = "buna"
+    say       = "tuturor"
+    say_again = "la "
+    say_again2 = "cursul de Terraform "
   }
 }

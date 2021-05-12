@@ -1,6 +1,7 @@
 # Local .terraform directories
 **/.terraform/*
-
+*.yarn.lock
+*.lock
 # .tfstate files
 *.tfstate
 *.tfstate.*

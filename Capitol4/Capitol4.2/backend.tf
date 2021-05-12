@@ -1,7 +1,9 @@
-terraform {
-  backend "s3" {
-    bucket         = "terraform-telacad-cursant-state"
-    key            = "telacad-environment/terraform.tfstate"
-    region         = "eu-west-1"
-  }
-}
+//terraform {
+//  backend "s3" {
+//    bucket         = "eugeniu12345"
+//    key            = "state"
+//    region         = "us-east-1"
+//    session_name   = "terraform"
+//    profile        = "telacad-test"
+//  }
+//}
